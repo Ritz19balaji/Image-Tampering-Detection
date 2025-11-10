@@ -47,8 +47,6 @@ CASIA CMFD :	[CASIA-CMFD](https://www.kaggle.com/datasets/mashraffarouk/casia-cm
 
 . Resize images to the MobileNet-V2 input size
 
-. Split as Train / Validation / Test (recommended 70/15/15)
-
 . Store labels clearly (Authentic vs Tampered)
 
 . Recommended augmentations: random crop, flip, rotate, gaussian noise
