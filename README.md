@@ -67,7 +67,7 @@ CASIA CMFD :	[CASIA-CMFD](https://www.kaggle.com/datasets/mashraffarouk/casia-cm
 
 To enhance digital forensics by combining deep learning with forensic feature analysis to deliver interpretable, reliable, and accurate image tampering detection for research and investigation scenarios.
 
-Future Work
+# Future Work
 
 . Multi-region tampering localization
 
