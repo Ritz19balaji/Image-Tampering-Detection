@@ -6,23 +6,24 @@ This Deep Learning-based image tampering detection system applies a Dual Branch 
 
 # Features
 
-# Dual Branch CNN based deep analysis
+. Dual Branch CNN based deep analysis
 
-Global semantic + forensic feature extraction
+. Global semantic + forensic feature extraction
 
-Manipulation visualization and heatmap support
+. Manipulation visualization and heatmap support
 
-Custom fine-tuning with user datasets
+. Custom fine-tuning with user datasets
 
-Multi-dataset compatibility (CASIA V2, CASIA-CMFD)
+. Multi-dataset compatibility (CASIA V2, CASIA-CMFD)
 
 # Tech Stack
 Category	Tools
-Deep Learning	TensorFlow, Keras, PyTorch
-Computer Vision	OpenCV, scikit-image
-ML Utilities	scikit-learn, NumPy, Pandas
-Visualization	Matplotlib, Seaborn
-📂 Supported Datasets
+. Deep Learning	TensorFlow, Keras, PyTorch
+. Computer Vision	OpenCV, scikit-image
+. ML Utilities	scikit-learn, NumPy, Pandas
+. Visualization	Matplotlib, Seaborn
+
+# Supported Datasets
 
 CASIA V2
 
