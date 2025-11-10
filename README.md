@@ -1,4 +1,4 @@
-# Image Tampering Detection using Deep Learning and Forensic Feature Analysis
+# TamperNet - Image Tampering Detection using Deep Learning and Forensic Feature Analysis
 
 # Project Overview
 
