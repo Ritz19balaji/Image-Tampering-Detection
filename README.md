@@ -17,10 +17,14 @@ This Deep Learning-based image tampering detection system applies a Dual Branch 
 . Multi-dataset compatibility (CASIA V2, CASIA-CMFD)
 
 # Tech Stack
-Category	Tools
+
+  Category	Tools
 . Deep Learning	TensorFlow, Keras, PyTorch
+
 . Computer Vision	OpenCV, scikit-image
+
 . ML Utilities	scikit-learn, NumPy, Pandas
+
 . Visualization	Matplotlib, Seaborn
 
 # Supported Datasets
