@@ -1,39 +1,29 @@
 # Image Tampering Detection using Deep Learning and Forensic Feature Analysis
 
-📌 Project Overview
+# Project Overview
 
-This project focuses on detecting image tampering using deep learning and forensic feature analysis. By leveraging CNN-based models, we analyze digital images to identify manipulated or forged content. The goal is to enhance digital forensics by improving the accuracy of tampered image detection.
+This Deep Learning-based image tampering detection system applies a Dual Branch CNN architecture to simultaneously extract global semantic features and forensic cues, enabling reliable identification of manipulated content in digital images. The system leverages a pre-trained MobileNet-V2 backbone for high-level feature extraction while analyzing noise inconsistencies, edge artifacts, and compression traces to strengthen forensic evidence-based detection. Evaluated across 12,615 test samples, the model achieved 93.6% classification accuracy.
 
-🔍 Features
+# Features
 
-Deep Learning-Based Analysis: Uses CNN architectures to detect tampered regions.
+# Dual Branch CNN based deep analysis
 
-Forensic Feature Extraction: Analyzes noise inconsistencies, edge artifacts, and compression traces.
+Global semantic + forensic feature extraction
 
-Dataset Support: Compatible with multiple tampering datasets (CASIA,CASIA-CMFD.).
+Manipulation visualization and heatmap support
 
-Visualization Tools: Highlights manipulated regions in images.
+Custom fine-tuning with user datasets
 
-Custom Model Training: Allows fine-tuning with user-provided datasets.
+Multi-dataset compatibility (CASIA V2, CASIA-CMFD)
 
-🛠️ Tech Stack & Frameworks
+# Tech Stack
+Category	Tools
+Deep Learning	TensorFlow, Keras, PyTorch
+Computer Vision	OpenCV, scikit-image
+ML Utilities	scikit-learn, NumPy, Pandas
+Visualization	Matplotlib, Seaborn
+📂 Supported Datasets
 
-Deep Learning: TensorFlow, Keras, PyTorch
+CASIA V2
 
-Computer Vision: OpenCV, scikit-image
-
-Machine Learning: scikit-learn
-
-Data Processing: NumPy, Pandas
-
-Visualization: Matplotlib, Seaborn
-
-📂 Dataset
-
-The project supports publicly available tampered image datasets such as:
-
-CASIA 2.0
-
-CASIA-CMFD
-
-
+CASIA CMFD
