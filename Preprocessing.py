@@ -37,4 +37,4 @@ def clean_and_process_images(input_path, output_path, target_size=(128, 128)):
 clean_and_process_images(auth_path, cleaned_auth_path)
 clean_and_process_images(tamp_path, cleaned_tamp_path)
 
-print("✅ Dataset cleaning completed!")
+print("Dataset cleaning completed!")
