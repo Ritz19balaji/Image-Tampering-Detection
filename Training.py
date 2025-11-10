@@ -60,8 +60,8 @@ model.fit(X_train, y_train, epochs=10, batch_size=32, validation_split=0.1, call
 
 # Evaluate the model on the test set
 loss, acc = model.evaluate(X_test, y_test)
-print(f"✅ Test Accuracy: %2f{acc}")
+print(f" Test Accuracy: %2f{acc}")
 
 # Save the trained model
 model.save("/content/drive/MyDrive/tampernet_model_trained_mobilenet.h5")
-print("✅ Model saved to Drive as tampernet_model_trained_mobilenet.h5")
+print("Model saved to Drive as tampernet_model_trained_mobilenet.h5")
