@@ -1,35 +1,80 @@
 # TamperNet - Image Tampering Detection using Deep Learning and Forensic Feature Analysis
 
-# Project Overview
+# Overview
 
-This Deep Learning-based image tampering detection system applies a Dual Branch CNN architecture to simultaneously extract global semantic features and forensic cues, enabling reliable identification of manipulated content in digital images. The system leverages a pre-trained MobileNet-V2 backbone for high-level feature extraction while analyzing noise inconsistencies, edge artifacts, and compression traces to strengthen forensic evidence-based detection. Evaluated across 12,615 test samples, the model achieved 93.6% classification accuracy.
+This project focuses on detecting tampered digital images using Deep Learning and forensic feature analysis. The system implements a Dual Branch CNN architecture that extracts both global semantic information and low-level forensic cues to identify image manipulations. A pre-trained MobileNet-V2 backbone is utilized for feature representation, while noise inconsistencies, compression patterns, and edge artifacts are leveraged for forensic signal strengthening.
+
+This model achieved 93.6% accuracy on 12,615 test samples.
 
 # Features
 
-. Dual Branch CNN based deep analysis
+. Dual Branch CNN based tampering detection
 
-. Global semantic + forensic feature extraction
+. Global semantic + forensic feature fusion
 
-. Manipulation visualization and heatmap support
+. Tampering localization visualization (heatmaps)
 
-. Custom fine-tuning with user datasets
+. Custom dataset fine-tuning support
 
-. Multi-dataset compatibility (CASIA V2, CASIA-CMFD)
+. High performance on benchmark tampering datasets
 
 # Tech Stack
 
-  Category	Tools
-  
-. Deep Learning	TensorFlow, Keras, PyTorch
+Category	Tools
 
-. Computer Vision	OpenCV, scikit-image
+. Deep Learning :	TensorFlow, Keras, PyTorch
 
-. ML Utilities	scikit-learn, NumPy, Pandas
+. Computer Vision	: OpenCV, scikit-image
 
-. Visualization	Matplotlib, Seaborn
+. Machine Learning	: scikit-learn
 
-# Supported Datasets
+. Data Processing :	NumPy, Pandas
 
-CASIA V2
+. Visualization	: Matplotlib, Seaborn
 
-CASIA CMFD
+# Datasets
+
+Due to size and licensing restrictions, datasets (CASIA V2, CASIA CMFD) are not included in this repository. Users must download them from their official sources.
+
+Dataset	Source
+CASIA V2 :	[http://forensics.idealtest.org/](https://www.kaggle.com/datasets/divg07/casia-20-image-tampering-detection-dataset)
+
+CASIA CMFD :	[CASIA-CMFD](https://www.kaggle.com/datasets/mashraffarouk/casia-cmfd)
+
+# Preprocessing Instructions
+
+. Normalize pixel values to [0,1]
+
+. Resize images to the MobileNet-V2 input size
+
+. Split as Train / Validation / Test (recommended 70/15/15)
+
+. Store labels clearly (Authentic vs Tampered)
+
+. Recommended augmentations: random crop, flip, rotate, gaussian noise
+
+# Repository Contents
+
+. Dual Branch CNN architecture implementation
+
+. Training scripts
+
+. Inference / prediction script
+
+. Heatmap visualization module
+
+. Experiment configuration files / notebooks
+
+# Objective
+
+To enhance digital forensics by combining deep learning with forensic feature analysis to deliver interpretable, reliable, and accurate image tampering detection for research and investigation scenarios.
+
+Future Work
+
+. Multi-region tampering localization
+
+. Multi-modal forgery detection
+
+. Transformer-based forensic reasoning
+
+. Adversarial robustness evaluation
