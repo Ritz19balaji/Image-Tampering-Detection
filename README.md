@@ -19,6 +19,7 @@ This Deep Learning-based image tampering detection system applies a Dual Branch 
 # Tech Stack
 
   Category	Tools
+  
 . Deep Learning	TensorFlow, Keras, PyTorch
 
 . Computer Vision	OpenCV, scikit-image
